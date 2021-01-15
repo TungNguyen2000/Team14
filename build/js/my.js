@@ -347,7 +347,6 @@ app.controller('EmployeeController', function($scope,$http,$rootScope,$location)
 				    	}
 					    $scope.ListTaiKhoan = ketqua;
 				    });
-					$scope.hl = ""; //tắt pop-up
 				    //thongbao("Thêm thành công");
 				    alert("Thêm thành công");
 	    		}
@@ -565,7 +564,7 @@ app.controller('FoodController',function($scope,$http,$rootScope,$location){
 					       	$scope.ListMonAn = response.data;
 					    });
 
-					    $scope.dpl = ""; //tắt pop-up thêm sản phẩm
+
 					    thongbao('thêm thành công');
 		    		}
 

@@ -181,24 +181,24 @@ CREATE TABLE `monan` (
 --
 
 INSERT INTO `monan` (`id`, `iddanhmuc`, `tenmonan`, `donvi`, `gia`, `soluongcon`, `avartar`) VALUES
-(1, 1, 'Salad Cải Bó Xôi', 'Đĩa', 70000, 100, 'salad-cai-bo-xoi.jpg'),
-(2, 1, 'Nộm Sứa', 'Đĩa', 90000, 100, 'nom-sua.jpg'),
-(3, 1, 'Nộm Rau Muống Bắp Bò', 'Đĩa', 60000, 100, 'nom-rau-muong-bap-bo.jpg'),
-(4, 1, 'Măng Trúc Xào Tim', 'Đĩa', 110000, 100, 'mang-truc-xao-tim.jpg'),
-(5, 1, 'Măng Trúc Xào Bò', 'Đĩa', 100000, 100, 'mang-truc-xao-bo.jpg'),
-(6, 1, 'Cải Lăn Xào Tỏi', 'Đĩa', 75000, 100, 'cai-lan-xao-toi.jpg'),
-(7, 2, 'Gà Nướng', 'Đĩa', 250000, 100, 'ga-nuong.jpg'),
-(8, 2, 'Gà Hấp', 'Đĩa', 200000, 100, 'ga-hap.jpg'),
-(9, 2, 'Bò Nướng Thái', 'Đĩa', 350000, 100, 'bo-nuong-thai.jpg'),
-(10, 2, 'Bò Xào Cần Tỏi', 'Đĩa', 270000, 100, 'bo-xao-can-toi.jpg'),
-(12, 3, 'Dưa Hấu', 'Đĩa', 20000, 100, 'dua-hau.jpg'),
-(13, 3, 'Hoa Qủa Thập Cẩm', 'Đĩa', 25000, 100, 'hoa-qua-thap-cam.jpg'),
-(14, 3, 'Súp Cua Măng Tây', 'Đĩa', 50000, 100, 'sup-cua-mang-tay.jpg'),
-(15, 3, 'Súp Rau', 'Đĩa', 30000, 100, 'sup-rau.jpg'),
-(16, 4, 'Cà Phê Sữa', 'Lon', 25000, 100, 'ca-phe-sua.jpg'),
-(17, 4, 'Cocacola', 'Lon', 15000, 100, 'coca.jpg'),
-(18, 4, 'Pepsi', 'Lon', 15000, 100, 'pepsi.jpg'),
-(19, 4, 'Bia', 'Lon', 20000, 100, 'bia.jpg');
+(100001, 1, 'Salad Cải Bó Xôi', 'Đĩa', 70000, 100, 'salad-cai-bo-xoi.jpg'),
+(100002, 1, 'Nộm Sứa', 'Đĩa', 90000, 100, 'nom-sua.jpg'),
+(100003, 1, 'Nộm Rau Muống Bắp Bò', 'Đĩa', 60000, 100, 'nom-rau-muong-bap-bo.jpg'),
+(100004, 1, 'Măng Trúc Xào Tim', 'Đĩa', 110000, 100, 'mang-truc-xao-tim.jpg'),
+(100005, 1, 'Măng Trúc Xào Bò', 'Đĩa', 100000, 100, 'mang-truc-xao-bo.jpg'),
+(100006, 1, 'Cải Lăn Xào Tỏi', 'Đĩa', 75000, 100, 'cai-lan-xao-toi.jpg'),
+(100007, 2, 'Gà Nướng', 'Đĩa', 250000, 100, 'ga-nuong.jpg'),
+(100008, 2, 'Gà Hấp', 'Đĩa', 200000, 100, 'ga-hap.jpg'),
+(100009, 2, 'Bò Nướng Thái', 'Đĩa', 350000, 100, 'bo-nuong-thai.jpg'),
+(100010, 2, 'Bò Xào Cần Tỏi', 'Đĩa', 270000, 100, 'bo-xao-can-toi.jpg'),
+(100012, 3, 'Dưa Hấu', 'Đĩa', 20000, 100, 'dua-hau.jpg'),
+(100013, 3, 'Hoa Qủa Thập Cẩm', 'Đĩa', 25000, 100, 'hoa-qua-thap-cam.jpg'),
+(100014, 3, 'Súp Cua Măng Tây', 'Đĩa', 50000, 100, 'sup-cua-mang-tay.jpg'),
+(100015, 3, 'Súp Rau', 'Đĩa', 30000, 100, 'sup-rau.jpg'),
+(100016, 4, 'Cà Phê Sữa', 'Lon', 25000, 100, 'ca-phe-sua.jpg'),
+(100017, 4, 'Cocacola', 'Lon', 15000, 100, 'coca.jpg'),
+(100018, 4, 'Pepsi', 'Lon', 15000, 100, 'pepsi.jpg'),
+(100019, 4, 'Bia', 'Lon', 20000, 100, 'bia.jpg');
 
 -- --------------------------------------------------------
 
@@ -328,7 +328,7 @@ ALTER TABLE `khuvuc`
 -- AUTO_INCREMENT cho bảng `monan`
 --
 ALTER TABLE `monan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100020;
 
 --
 -- AUTO_INCREMENT cho bảng `taikhoan`

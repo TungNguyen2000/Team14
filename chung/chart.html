@@ -28,7 +28,7 @@
                                        <i class="fas fa-angle-double-right"></i> Danh Sách Tất Cả Món 
                                     </p>
                                 </li>
-                                <li class="locdanhmuc" ng-repeat="danhmuc in ListDanhMuc" ng-click="locdanhmuc(danhmuc)" ng-init="danhmuc.display=false">
+                                <li class="locdanhmuc" ng-repeat="danhmuc in ListDanhMuc" ng-dblclick="locdanhmuc(danhmuc)" ng-init="danhmuc.display=false">
                                      <div class="row">
                                         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
                                             <div  ng-show="!danhmuc.display">
